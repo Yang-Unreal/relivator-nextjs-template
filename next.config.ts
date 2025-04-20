@@ -9,6 +9,7 @@ const nextConfig = {
       { protocol: "https", hostname: "**.googleusercontent.com" },
       { protocol: "https", hostname: "**.unsplash.com" },
       { protocol: "https", hostname: "api.github.com" },
+      { protocol: "https", hostname: "minio.limingcn.com" },
     ],
   },
   eslint: { ignoreDuringBuilds: true },
