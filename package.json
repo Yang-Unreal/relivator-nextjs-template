@@ -6,6 +6,8 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev --turbopack",
+    "start": "next start",
+    "predeploy": "bun run db:push",
     "db:push": "drizzle-kit push",
     "db:auth": "bun addons/better.ts",
     "db:studio": "drizzle-kit studio",
