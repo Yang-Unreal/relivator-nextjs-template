@@ -12,11 +12,11 @@ export function Footer({ className }: { className?: string }) {
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2">
               <span className="text-xl font-bold tracking-tight bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
-                Relivator
+                LIMING
               </span>
             </Link>
             <p className="text-sm text-muted-foreground">
-              Your one-stop shop for everything tech. Premium products at
+              Your one-stop shop for everything. Premium products at
               competitive prices.
             </p>
             <div className="flex space-x-4">
@@ -201,7 +201,7 @@ export function Footer({ className }: { className?: string }) {
         <div className="mt-12 border-t pt-8">
           <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
             <p className="text-sm text-muted-foreground">
-              &copy; {new Date().getFullYear()} Relivator. All rights reserved.
+              &copy; {new Date().getFullYear()} LIMING. All rights reserved.
             </p>
             <div className="flex items-center gap-4 text-sm text-muted-foreground">
               <Link href="/privacy" className="hover:text-foreground">

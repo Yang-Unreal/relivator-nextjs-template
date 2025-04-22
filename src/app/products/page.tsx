@@ -11,23 +11,23 @@ import { Button } from "~/ui/primitives/button";
 const products = [
   {
     id: "1",
-    name: "Premium Wireless Headphones",
-    price: 199.99,
-    originalPrice: 249.99,
+    name: "High Speed Electric Motorcycle V2",
+    price: 2700,
+    originalPrice: 3000,
     image:
-      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
-    category: "Audio",
+      "https://minio.limingcn.com/bun/001-1.png",
+    category: "Electric Motorcycle",
     rating: 4.5,
     inStock: true,
   },
   {
     id: "2",
-    name: "Smart Watch Series 5",
-    price: 299.99,
-    originalPrice: 349.99,
+    name: "Mini Electric Car Q2",
+    price: 3400,
+    originalPrice: 3500,
     image:
-      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
-    category: "Wearables",
+      "https://minio.limingcn.com/bun/002.png",
+    category: "Electric Car",
     rating: 4.2,
     inStock: true,
   },
@@ -80,8 +80,8 @@ const products = [
 // Mock categories for filtering
 const categories = [
   "All",
-  "Audio",
-  "Wearables",
+  "Electric Motorcycle",
+  "Electric Car",
   "Photography",
   "Furniture",
   "Electronics",
@@ -119,7 +119,7 @@ export default function ProductsPage() {
     <div className="flex min-h-screen flex-col">
       <Header />
       <main className="flex-1 py-10">
-        <div className="container px-4 md:px-6">
+        <div className="container mx-auto px-4 md:px-6">
           <div className="mb-8 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
             <div>
               <h1 className="text-3xl font-bold tracking-tight">Products</h1>
@@ -181,9 +181,9 @@ export default function ProductsPage() {
         </div>
       </main>
       <footer className="border-t py-6 md:py-0">
-        <div className="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
+        <div className="container mx-auto flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
           <p className="text-center text-sm leading-loose text-muted-foreground md:text-left">
-            © {new Date().getFullYear()} Relivator. All rights reserved.
+            © {new Date().getFullYear()} LIMING. All rights reserved.
           </p>
         </div>
       </footer>

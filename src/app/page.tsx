@@ -177,7 +177,7 @@ export default function HomePage() {
                   <h1 className="text-4xl font-bold tracking-tighter text-foreground sm:text-5xl md:text-6xl lg:leading-[1.1]">
                     Your One-Stop Shop for{" "}
                     <span className="bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
-                      Everything Tech
+                      Everything
                     </span>
                   </h1>
                   <p className="max-w-[700px] text-lg text-muted-foreground md:text-xl">
@@ -353,7 +353,7 @@ export default function HomePage() {
               <div className="absolute inset-0 bg-grid-white/[0.05] bg-[length:16px_16px]" />
               <div className="relative z-10 mx-auto max-w-2xl text-center">
                 <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
-                  Ready to Upgrade Your Tech?
+                  Ready to Upgrade Your Business?
                 </h2>
                 <p className="mt-4 text-lg text-muted-foreground md:text-xl">
                   Join thousands of satisfied customers and experience the best

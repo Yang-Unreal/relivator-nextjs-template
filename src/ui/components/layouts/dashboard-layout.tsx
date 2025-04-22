@@ -36,10 +36,10 @@ export function DashboardLayout({ children }: DashboardLayoutProps) {
   return (
     <div className="flex min-h-screen flex-col">
       <header className="border-b bg-background">
-        <div className="container flex h-16 items-center justify-between px-4 md:px-6">
+        <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
           <div className="flex items-center gap-6">
             <Link href="/" className="flex items-center gap-2">
-              <span className="text-xl font-bold">Relivator</span>
+              <span className="text-xl font-bold">LIMING</span>
             </Link>
             <nav className="hidden md:flex">
               <ul className="flex items-center gap-4">
